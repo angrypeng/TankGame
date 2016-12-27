@@ -12,7 +12,6 @@ public class csRotateAround : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.RotateAround (obj.position, Vector3.up, 40 * Time.deltaTime);
-		transform.LookAt (obj);
+		transform.RotateAround (obj.position, Vector3.down, 20 * Time.deltaTime);
 	}
 }
